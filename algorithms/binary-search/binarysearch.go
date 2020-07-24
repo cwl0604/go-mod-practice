@@ -1,5 +1,5 @@
 package binary
-
+import "fmt"
 func Rank(key int,a []int)int{
 	for lo,hi:=0,len(a)-1;lo<=hi;{
 		mid:=lo+(hi-lo)/2
@@ -9,6 +9,7 @@ func Rank(key int,a []int)int{
 		case key>a[mid]:
 			lo=mid+1
 		default: 
+			fmt.Println("get it!")
 			return mid
 		}
 	}
