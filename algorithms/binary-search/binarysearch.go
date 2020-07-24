@@ -1,6 +1,6 @@
 package binary
 
-func rank(key int,a []int)int{
+func Rank(key int,a []int)int{
 	for lo,hi:=0,len(a)-1;lo<=hi;{
 		mid:=lo+(hi-lo)/2
 		switch {
