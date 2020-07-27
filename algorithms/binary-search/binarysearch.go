@@ -11,7 +11,7 @@ func Rank(key int, a []int) int {
 		case key > a[mid]:
 			lo = mid + 1
 		default:
-			fmt.Println("get it hahahaha!")
+			fmt.Println("get it hahahaha! good!")
 			return mid
 		}
 	}
